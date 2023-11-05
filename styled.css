@@ -1,0 +1,47 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: rgb(42, 1, 139);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        .container > div{
+            background-color: rgb(255,255,255);
+            width: 90%;
+            border-radius: 25px;
+            padding: 2%;
+        }
+        .formcontainer{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            padding: 1%;
+        }
+        .dataform{
+        width: 95%;
+        height:200px;
+        font-size:14pt;
+        }
+        .bt{
+            border: 1px solid rgb(37, 105, 42);
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 6px 10px;
+            text-decoration: none;
+        }
+        .btgolds{
+            border-color: rgb(70, 167, 245);
+            background: linear-gradient(rgb(250, 202, 72) 5%, rgb(230, 185, 37) 100%);
+            box-shadow: rgb(215, 236, 253) 0px 1px 0px 0px inset;
+            color: rgb(255, 255, 255);
+            text-shadow: rgb(82, 128, 9) 0px 1px 0px;
+        }
